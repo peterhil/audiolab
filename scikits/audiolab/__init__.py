@@ -19,6 +19,9 @@ Copyright (C) 2006-2007 Cournapeau David <cournape@gmail.com>
 LICENSE: audiolab is licensed under the LGPL, as is libsndfile itself. See
 COPYING.txt for details.  """
 
+# For relative imports to work in Python 3.6
+import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+
 from version import version as _version
 __version__ = _version
 
