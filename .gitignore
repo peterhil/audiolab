@@ -1,0 +1,12 @@
+*.egg-info/
+*.pyc
+*.so
+*~
+.DS_Store
+.\#*
+\#*\#
+build/
+dist/
+docs/src/audiolab_version.py
+scikits/audiolab/info.py
+scikits/audiolab/version.py
